@@ -1,0 +1,94 @@
+*{
+  padding: 0;
+  margin: 5px;
+  background-color: #b6b6b6;
+}
+/* body{
+background: url("123.jpg");
+background-size: cover;
+} */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+}
+a{
+  padding: 10px 10px 0px 20px;
+  text-decoration: none;
+  color: black;
+  opacity: 0.8;
+  font-size: 18px;
+  transition: all 0.2s ease;
+}
+.login,.signup{
+  border: 1.5px solid black;
+  border-radius: 7px;
+  padding: 5px;
+  cursor: pointer;
+  padding: 10px;
+  transition: all 0.3s ease ;
+}
+.signup:hover{
+  transform: scale(1.1);
+  background-color: dimgrey;
+  color: #fff;
+}
+.login:hover{
+   transform: scale(1.1);
+}
+.login{
+  color: #fff;
+  background-color: #000;
+}
+.body{
+  display: flex;
+  
+}
+h2{
+  font-size: 45px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+.body img{
+  width: 650px;
+  height: 550px;
+  position: relative;
+  right: -200px;
+}
+.content{
+  margin: 25px;
+  display: grid;
+  align-content: center;
+  width: 500px;
+  height: 600px;
+  position: relative;
+  left: 50px;
+
+}
+.content .btn{
+  display: flex;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+.content p{
+   margin: 25px 0 25px 0;
+}
+.start{
+  padding: 12px 25px 12px 25px;
+  border-radius: 16px;
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: 520;
+  cursor: pointer;
+  background-color: rgba(179, 179, 179, 0.647) ;
+}
+.btn :hover{
+background-color: dimgrey;
+transform: scale(1.1);
+color: #fff;
+}
+a:hover{
+   font-size: 20px;
+   opacity: 1;
+}
