@@ -1,0 +1,258 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.sidebar{
+  background-color: #000;
+  width: 19rem;
+  border-radius: 1rem;
+  position: sticky;
+}
+.main-content{
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;
+    margin-left:0.25rem ;
+    overflow: auto;
+    padding: 0 1.25rem 0 1.25rem;
+    /* height: 100%; */
+}
+.musicplayer{
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.main{
+    display: flex;
+    height: 100vh;
+    margin: 0.5rem;
+}
+.option {
+    height: 110px;
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem 0.75rem;
+   
+}
+a,i{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0.35rem;
+    font-size: 1.25rem;
+    
+}
+.op1{
+    line-height: 2.5rem;
+    opacity: 0.7;
+}
+.op1:hover{
+    opacity: 1;
+}
+.menu{
+    display: flex;
+    align-content: baseline;
+    justify-content: space-between;
+    padding: 0.5rem 0.75rem;
+    margin: 0.25rem;
+    
+}
+.lb{
+    opacity: 0.7;
+   
+}
+.lb:hover{
+    opacity: 1;
+}
+.lb a{
+    font-size: 1.15rem ;
+    font-weight: 500;
+}
+.icons i{
+    font-size: 1.25rem;
+    font-weight: 600;
+    opacity: 0.7;
+}
+.icons i:hover{
+    opacity: 1;
+    font-size: 1.32rem;
+    font-weight: 650;
+}
+.library{
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 82%;
+}
+.box h3,p{
+    color: #fff;
+    margin: .25rem;
+}
+.box{
+    background-color: #242424;
+    border-radius: 1rem;
+    padding: 1rem 1.25rem;
+    margin: 0.5rem;
+}
+.box-p1{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 0.25rem; 
+}
+.box-p2{
+    font-size: 0.75rem;
+    color: #fff;
+    padding-bottom: 0.25rem; 
+}
+.badge{
+    border-radius: 1rem;
+    border: none;
+    padding: 0.35rem 0.8rem;
+    margin-top: 0.55rem;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 2rem;
+    width: fit-content;
+}
+.badge:hover{
+    transform: scale(1.02);
+}
+.btn button{
+    margin-right: 1rem;
+}
+.back a img{
+    background-color: #121212;
+    border-radius: 50%;
+}
+.sticky-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.25rem 1rem;
+    background-color: #121212;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.dark{
+    background-color: #000;
+    color: #fff;
+    
+}
+h2{
+    color: #fff;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 150px;
+    background-color: #232323;
+    border-radius: .5rem;
+    padding: .75rem;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+}
+.card-container img{
+    width: 100%;
+    border-radius: .5rem;
+}
+.card-title{
+    font-weight: 600;
+}
+.card-info{
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+.footer{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    height: 50%;
+    width: 90%;
+    border-top : 1px solid #fff;
+    opacity: 0.5; 
+}
+.album{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.player{
+    width: 50%;
+}
+.controls{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.controls i{
+    font-size: 1rem;
+}
+span{
+color: #fff;
+}
+.player-control-icons{
+    height: 1rem;
+    margin-right: 1.5rem;
+    opacity: 0.5;
+}
+.player-control-icons:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+.ct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.25rem;
+}
+.bar{
+    width: 70%;
+}
+.bar-edit{
+    appearance: none;
+}
+.baar1::-webkit-slider-runnable-track{
+    height: 4px;
+}
+.baar1::-webkit-slider-thumb{
+    margin-top: -5px;
+}
+.baar1::-webkit-slider-thumb:hover{
+    background-color: #0000af;
+}
+.played-song{
+    height: 3.5rem;
+    border-radius: .5rem;
+    margin-top: 0.5rem;
+}
+.title{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.info{
+    font-size: 0.7rem;
+    opacity: 0.8;
+}
